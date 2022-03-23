@@ -1,0 +1,41 @@
+.root{
+    -fx-background-color: #5D6D7E;
+    -fx-text-fill: #3498DB;
+}
+.button{
+    -fx-background-color: #2874A6;
+    -fx-background-radius: 10 0 0 10;
+    -fx-text-fill: #ffffff;
+    -fx-alignment: center;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+}
+.button:hover{
+    -fx-background-color: #ABB2B9;
+    -fx-background-radius: 15 0 0 15;
+    -fx-text-fill: #D6EAF8;
+    -fx-alignment: center;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Wingdings 2";
+}
+.button:pressed{
+    -fx-background-color: #78281F;
+    -fx-background-radius: 0 0 0 0;
+    -fx-text-fill: #FADBD8 ;
+    -fx-alignment: center;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Colonna MT";
+}
+.table-view{
+    -fx-background-color: #117A65;
+    -fx-border-color: #16A085;
+    -fx-text-fill: #D1F2EB ;
+}
+.label{
+    -fx-text-fill: #3498DB;
+    -fx-font-weight: bold;
+    -fx-stroke: #D1F2EB;
+}

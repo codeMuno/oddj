@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" stylesheets="@darkTheme.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignnewContract">
+   <children>
+      <Pane layoutX="15.0" layoutY="15.0" prefHeight="470.0" prefWidth="200.0">
+         <children>
+            <Button id="btnImage" fx:id="btnImage" layoutX="15.0" layoutY="200.0" mnemonicParsing="false" onAction="#imageButtonClicked" prefHeight="35.0" prefWidth="175.0" text="Image" />
+            <ImageView id="imgView" fx:id="imgView" fitHeight="170.0" fitWidth="170.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/girl.jpg" />
+               </image>
+            </ImageView>
+            <Button id="btnSave" fx:id="btnSave" layoutX="50.0" layoutY="300.0" mnemonicParsing="false" onAction="#saveBtnClicked" prefHeight="25.0" prefWidth="100.0" text="Save" />
+            <Button id="btnReset" fx:id="btnReset" layoutX="50.0" layoutY="350.0" mnemonicParsing="false" onAction="#resetButtonClicked" prefWidth="100.0" text="Reset" />
+            <Button id="btnCancel" fx:id="btnCancel" layoutX="50.0" layoutY="400.0" mnemonicParsing="false" prefWidth="100.0" text="Cancel" />
+         </children>
+      </Pane>
+      <Pane layoutX="230.0" layoutY="15.0" prefHeight="470.0" prefWidth="405.0">
+         <children>
+            <Label layoutX="22.0" layoutY="15.0" prefHeight="17.0" prefWidth="170.0" text="First Name" />
+            <Label layoutX="216.0" layoutY="15.0" prefHeight="17.0" prefWidth="170.0" text="Last Name" />
+            <TextField id="txtfirstname" fx:id="txtfirstname" layoutX="21.6" layoutY="45.0" prefHeight="25.0" prefWidth="175.0" />
+            <TextField id="txtlastname" fx:id="txtlastname" layoutX="216.0" layoutY="45.0" prefHeight="25.0" prefWidth="170.0" />
+            <Label layoutX="22.0" layoutY="85.0" prefHeight="17.0" prefWidth="365.0" text="Choose user name" />
+            <TextField id="txtUserName" fx:id="txtUserName" layoutX="22.0" layoutY="115.0" prefHeight="25.0" prefWidth="365.0" />
+            <Label layoutX="21.6" layoutY="155.0" prefHeight="17.0" prefWidth="365.0" text="Enter Email" />
+            <TextField id="txtEmail" fx:id="txtEmail" layoutX="21.6" layoutY="185.0" prefHeight="25.0" prefWidth="365.0" />
+            <Label layoutX="21.6" layoutY="225.0" prefHeight="17.0" prefWidth="170.0" text="Password" />
+            <Label layoutX="216.0" layoutY="225.0" prefHeight="17.0" prefWidth="170.0" text="Confirm Passwaord" />
+            <PasswordField id="psqTwo" fx:id="psqTwo" layoutX="22.0" layoutY="255.0" />
+            <PasswordField id="pswOne" fx:id="pswOne" layoutX="197.0" layoutY="255.0" />
+            <HBox fx:id="AccountBox" layoutX="22.0" layoutY="304.0" prefHeight="41.0" prefWidth="365.0">
+               <children>
+                  <Label prefHeight="40.0" prefWidth="92.0" text="Account Type" />
+                  <Region layoutX="192.0" layoutY="10.0" prefHeight="41.0" prefWidth="42.0" />
+                  <RadioButton id="rdBusiness" fx:id="rdBusiness" mnemonicParsing="false" onAction="#businessButtonClicked" text="Business" />
+                  <Region prefHeight="41.0" prefWidth="53.0" />
+                  <RadioButton id="rdOther" fx:id="rdOther" layoutX="102.0" layoutY="10.0" mnemonicParsing="false" onAction="#otherButtonClicked" text="Other" />
+               </children>
+            </HBox>
+            <Label layoutX="22.0" layoutY="360.0" prefHeight="18.0" prefWidth="83.0" text="Phone" />
+            <TextField id="txtPhone" fx:id="txtPhone" layoutX="150.0" layoutY="360.0" prefHeight="26.0" prefWidth="239.0" promptText="+256706430917" />
+            <TextField id="txtAddress" fx:id="txtAddress" layoutX="14.0" layoutY="413.0" prefHeight="25.0" prefWidth="121.0" promptText="Address" />
+            <TextArea id="txaAddress" fx:id="txaAddress" layoutX="152.0" layoutY="392.0" prefHeight="67.0" prefWidth="239.0" promptText="Address drescription" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

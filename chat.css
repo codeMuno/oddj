@@ -1,0 +1,55 @@
+.shotpane{
+    -fx-background-color: #FFD700;
+    -fx-background-radius: 5px;
+}
+.shotpane:hover{
+    -fx-background-color: #DAA520;
+    -fx-background-radius: 5px;
+}.shotpane:pressed{
+     -fx-background-color: #000000;
+     -fx-background-radius: 5px;
+ }
+
+
+.longpane{
+    -fx-background-color: #7CFC00;
+    -fx-background-radius: 10px 0px 0px 10px;
+}
+.longpane:hover{
+    -fx-background-color: #ADFF2F;
+    -fx-background-radius: 10px px 0px 10px;
+}.longpane:pressed{
+     -fx-background-color: #FFFFFF;
+     -fx-background-radius: 10px px 0px 10px;
+ }
+
+
+.longRpane{
+    -fx-background-color: #ADFF2F;
+    -fx-background-radius: 0px 10px 10px 0px;
+ }
+.longRpane:hover{
+    -fx-background-color: #7CFC00;
+    -fx-background-radius: 0px 10px 10px 0px;
+}
+.longRpane:pressed{
+    -fx-background-color: #00008B;
+    -fx-background-radius: 0px 10px 10px 0px;
+}
+
+
+.toppane{
+    -fx-background-color: #00FFFF;
+    }
+.toppane:hover{
+    -fx-background-color: #7FFFD4;}
+.toppane:pressed{
+    -fx-background-color: #2F4F4F;}
+
+
+.all{
+    -fx-background-color: #F0F8FF;
+}
+.all:hover{
+    -fx-background-color: #F0FFFF;
+}

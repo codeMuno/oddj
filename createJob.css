@@ -1,0 +1,35 @@
+.sidePane{
+    -fx-background-color: #3498DB;
+    }
+.anchor{
+    -fx-background-color: #273746  ;
+}
+
+.label{
+    -fx-text-fill: #3498DB  ;
+    -fx-font-size: 15px;
+    -fx-alignment: center ;
+    -fx-padding: 10 ;
+}
+.text-field {
+    -fx-border-color: #154360 ;
+    -fx-border-width: 0 0 2 0;
+    -fx-text-fill: #F4F6F6;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-background-color: transparent;
+}
+.button{
+    -fx-background-color: #154360 ;
+    -fx-border-color: #154360  ;
+    -fx-text-fill: #3498DB  ;
+    -fx-font-size: 15px;
+}
+.button:hover{
+    -fx-background-color: #154360    ;
+    -fx-border-color: #15437f   ;
+    -fx-border-width: 2px;
+    -fx-text-fill: #3498DB     ;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}

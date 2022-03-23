@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.ScatterChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="650.0" stylesheets="@report.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Reportchart">
+   <children>
+      <BarChart fx:id="aBarChart" layoutX="325.0" layoutY="5.0" prefHeight="400.0" prefWidth="320.0">
+        <xAxis>
+          <CategoryAxis fx:id="timeOFDay" label="Time of day" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="activityLevel" label="Activity Level" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <ScatterChart fx:id="scatterChart" layoutX="5.0" layoutY="5.0" prefHeight="400.0" prefWidth="320.0" title="User activity">
+        <xAxis>
+          <CategoryAxis label="Months" side="BOTTOM" fx:id="xAxis" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="yAxis" label="Activity" side="LEFT" />
+        </yAxis>
+      </ScatterChart>
+      <Pane layoutY="400.0" prefHeight="100.0" prefWidth="650.0">
+         <children>
+            <Button layoutX="100.0" layoutY="35.0" mnemonicParsing="false" onAction="#scatterChart" prefHeight="30.0" prefWidth="100.0" text="Scatter" />
+            <Button layoutX="275.0" layoutY="35.0" mnemonicParsing="false" onAction="#buttonBackClicked" prefHeight="30.0" prefWidth="100.0" text="Back" />
+            <Button layoutX="450.0" layoutY="35.0" mnemonicParsing="false" onAction="#buttonBarClicked" prefHeight="30.0" prefWidth="100.0" text="Bar" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

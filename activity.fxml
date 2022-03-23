@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="anchorPane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" stylesheets="@active.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Activity">
+   <children>
+      <Pane id="homePane1" fx:id="homePane1" prefHeight="500.0" prefWidth="250.0">
+         <children>
+            <Button id="btnReport" fx:id="btnReport" layoutX="50.0" layoutY="400.0" mnemonicParsing="false" onAction="#printPdfButtonClicked" prefHeight="40.0" prefWidth="200.0" text="Print Report" />
+            <Button id="btnHome" fx:id="btnHome" layoutX="50.0" layoutY="350.0" mnemonicParsing="false" onAction="#homeBtnClicked" prefHeight="40.0" prefWidth="200.0" text="Home" />
+            <Button id="btnLog" fx:id="btnLog" layoutX="50.0" layoutY="450.0" mnemonicParsing="false" onAction="#logoutButtonclicked" prefHeight="40.0" prefWidth="200.0" text="Log Out" />
+            <Label layoutX="36.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" text="Odd job activity log" />
+            <Button id="btnHome" layoutX="50.0" layoutY="300.0" mnemonicParsing="false" onAction="#chartsButtonClicked" prefHeight="40.0" prefWidth="200.0" text="Charts" />
+            <Button id="btnHome" layoutX="50.0" layoutY="250.0" mnemonicParsing="false" onAction="#viewButtonClicked" prefHeight="40.0" prefWidth="200.0" text="View" />
+         </children>
+      </Pane>
+      <Pane id="homepane2" fx:id="homepane2" layoutX="250.0" prefHeight="500.0" prefWidth="400.0">
+         <children>
+            <TableView id="table" fx:id="table" prefHeight="500.0" prefWidth="400.0">
+              <columns>
+                <TableColumn id="fileUserName" fx:id="fileUserName" prefWidth="100.0" text="UserName" />
+                <TableColumn id="fileDate" fx:id="fileDate" prefWidth="100.0" text="Date" />
+                  <TableColumn id="fileTime" fx:id="fileTime" prefWidth="100.0" text="Log In Time" />
+                  <TableColumn id="fileOutTime" fx:id="fileOutTime" prefWidth="100.0" text="Log Out Time" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

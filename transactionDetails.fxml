@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="650.0" stylesheets="@activity.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TransactionDetails">
+    <children>
+        <Pane prefHeight="500.0" prefWidth="250.0">
+            <children>
+                <Pane layoutX="25.0" layoutY="25.0" prefHeight="200.0" prefWidth="200.0">
+                    <children>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@images/girl.jpg" />
+                            </image>
+                        </ImageView>
+                        <Pane layoutY="225.0" prefHeight="225.0" prefWidth="200.0">
+                            <children>
+                        <Button mnemonicParsing="false" onAction="#homebtnClicked" prefHeight="100.0" prefWidth="200.0" text="Home" />
+                        <Button layoutY="125.0" mnemonicParsing="false" onAction="#receiptbtnClicked" prefHeight="100.0" prefWidth="200.0" text="Receipt" />
+                            </children>
+                        </Pane>
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+        <Pane layoutX="250.0" prefHeight="500.0" prefWidth="400.0">
+            <children>
+                <Pane fx:id="longPane1" layoutY="20.0" prefHeight="100.0" prefWidth="375.0" styleClass="longpane">
+               <children>
+                  <TextField fx:id="txtJob" layoutX="39.0" layoutY="37.0" promptText="Job Tittle" />
+                  <Button layoutX="231.0" layoutY="28.0" mnemonicParsing="false" onAction="#findClicked" prefHeight="44.0" prefWidth="126.0" text="Find" />
+               </children></Pane>
+                <Pane fx:id="longPane2" layoutY="140.0" prefHeight="337.0" prefWidth="375.0" styleClass="longpane">
+               <children>
+                  <TextArea fx:id="txaDisplay" editable="false" layoutX="25.0" layoutY="14.0" prefHeight="100.0" prefWidth="325.0" />
+                  <TextField fx:id="txtAmount" alignment="CENTER" layoutX="25.0" layoutY="169.0" prefHeight="44.0" prefWidth="325.0" promptText="Amount" />
+                  <TextField fx:id="txtReceipt" alignment="CENTER" layoutX="25.0" layoutY="244.0" prefHeight="44.0" prefWidth="325.0" promptText="Receipt Number" />
+               </children></Pane>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

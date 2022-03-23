@@ -1,0 +1,117 @@
+.boarderPane{
+    -fx-background-color: #1A5276;
+    -fx-font-family: "Verdana";
+    -fx-text-fill: #EBF5FB;
+    -fx-font-size: 10px;
+    -fx-background-radius: 0px 0px 0px 0px;
+}
+.boarderPane:hover{
+    -fx-background-color: #21618C;
+}
+.pane1{
+    -fx-background-color: #1A5276;
+    -fx-alignment: center;
+}
+.pane2:hover{
+    -fx-background-color: #C71855;
+    -fx-border-color: #FF0000;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+   /* -fx-blend-mode: multiply;*/
+}
+.pane3{
+    -fx-text-fill: #4169E1;
+    -fx-font-size: 20px;
+}
+.menu-bar{
+    -fx-background-color: #2471A3;
+    -fx-border-color: #B03A2E;
+    -fx-font-size: 12px;
+}
+.menu-bar:hover{
+    -fx-background-color: #424949;
+    -fx-border-color: #C71855;
+    -fx-font-size: 12px;
+}
+.menu-item{
+    -fx-background-color: #2471A3;
+    -fx-border-color: #0B5345;
+    -fx-font-size: 12px;
+}
+.menu-item:hover{
+    -fx-background-color: #E74C3C;
+    -fx-border-color: #C71855;
+    -fx-font-size: 12px;
+}
+
+.menu{
+    -fx-background-color: #FF0000;
+    -fx-font-size: 12px;
+}
+.menu:hover{
+    -fx-background-color: #7E5109;
+    -fx-font-size: 12px;
+}
+.imagePane{
+    -fx-background-radius: 10px;
+}
+.button{
+    -fx-stroke: #F1C40F;
+    -fx-text-fill: #D68910;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0 0 10px 10px;
+    -fx-background-color: #5D6D7E;
+    -fx-border-radius: 10px 0 0 10px ;
+}
+.button:hover{
+    -fx-stroke: #FDEBD0;
+    -fx-text-fill: #FDEBD0;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0 0 10px 10px;
+    -fx-background-color: #5DADE2;
+    -fx-border-radius: 11px 0 0 11px ;
+}
+.button:pressed{
+    -fx-text-fill: #5D6D7E;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0 0 10px 10px;
+    -fx-background-color: #E74C3C;
+    -fx-border-radius: 12px 0 0 12px ;
+}
+.userlabel{
+   -fx-font-size: 25;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #30Cfff;
+    -fx-border-width: 0 0 4 4;
+    -fx-alignment: bottom-left;
+    -fx-border-radius: 1;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-weight: bold;
+}
+.emaillabel{
+    -fx-font-size: 25;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #30Cfff;
+    -fx-border-width: 3 3 0 0;
+    -fx-alignment: top-right;
+    -fx-border-radius: 1;
+    -fx-font-family: Forte;
+}
+.jobLabe{
+    -fx-font-size: 25;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #30Cfff;
+    -fx-border-width: 0 0 3 0;
+    -fx-alignment: center;
+    -fx-border-radius: 1;
+    -fx-font-family: Forte;
+}
+.text-area{
+    -fx-font-size: 15;
+    -fx-text-fill: #1A5276;
+    -fx-border-color: #30Cfff;
+    -fx-border-width: 1 1 1 1;
+    -fx-alignment: top-right;
+    -fx-border-radius: 1;
+    -fx-font-family: Forte;
+}

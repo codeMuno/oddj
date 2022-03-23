@@ -1,0 +1,42 @@
+.pane{
+    -fx-background-color: #7FFFD4;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #FFf8dc ;
+}
+.longpane{
+     -fx-background-color: #1A5276;
+     -fx-background-radius: 10px;
+     -fx-text-fill: #FF0000 ;
+
+ }
+.root{
+    -fx-background-color: #1B2631;
+}
+
+.button{
+    -fx-background-color: #5DADE2;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #FFFFFF ;
+    -fx-font-size: 20px;
+
+}
+.button:hover{
+    -fx-background-color: #3498DB;
+    -fx-background-radius: 10px;
+    -fx-font-weight: bold;
+}
+.button:pressed{
+    -fx-text-fill: #3498DB;
+    -fx-font-weight: bold;
+    -fx-stroke:  #1B2631;
+}
+.label{
+    -fx-text-fill: #FFFFFF ;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+}
+.text-area{
+    -fx-text-fill: #3498DB;
+    -fx-background-color: #1B2631;
+    -fx-font-size: 12px;
+}

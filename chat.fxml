@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="anchat" prefHeight="500.0" prefWidth="650.0" styleClass="all" stylesheets="@chat.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Chat">
+   <children>
+      <Pane prefHeight="100.0" prefWidth="650.0" styleClass="toppane" />
+      <Pane layoutX="25.0" layoutY="100.0" prefHeight="375.0" prefWidth="250.0">
+         <children>
+            <Pane fx:id="userpane1" prefHeight="60.0" prefWidth="250.0" styleClass="shotpane" stylesheets="@chat.css" />
+            <Pane fx:id="userpane2" layoutY="78.75" prefHeight="60.0" prefWidth="250.0" styleClass="shotpane" stylesheets="@chat.css" />
+            <Pane fx:id="userpane3" layoutY="157.5" prefHeight="60.0" prefWidth="250.0" styleClass="shotpane" stylesheets="@chat.css" />
+            <Pane fx:id="userpane4" layoutY="233.25" prefHeight="60.0" prefWidth="250.0" styleClass="shotpane" stylesheets="@chat.css" />
+            <Pane fx:id="userpane5" layoutY="312.0" prefHeight="60.0" prefWidth="250.0" styleClass="shotpane" stylesheets="@chat.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="300.0" layoutY="100.0" prefHeight="375.0" prefWidth="325.0">
+         <children>
+            <Pane prefHeight="50.0" prefWidth="325.0" styleClass="longpane" />
+            <Pane layoutY="75.0" prefHeight="50.0" prefWidth="325.0" styleClass="longRpane" />
+            <Pane layoutY="150.0" prefHeight="50.0" prefWidth="325.0" styleClass="longpane" />
+            <Pane layoutY="225.0" prefHeight="50.0" prefWidth="325.0" styleClass="longRpane" />
+            <Pane layoutY="300.0" prefHeight="50.0" prefWidth="325.0" styleClass="longpane" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
